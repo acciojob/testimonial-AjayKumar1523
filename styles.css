@@ -1,31 +1,23 @@
-/*  your css code here. If applicable */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
-.testimonials-container {
+/* Parent div */
+.container {
+  padding: 20px;
   background-color: #f5f5f5;
-  padding: 30px;
 }
 
-.testimonials-container h2 {
-  margin-bottom: 20px;
-}
-
+/* Testimonial boxes */
 .testimonial {
+  padding: 15px;
   background-color: #ffffff;
   border: 1px solid #ddd;
-  padding: 15px;
   margin-bottom: 15px;
 }
 
-.testimonial p {
-  margin: 0;
-}
-
+/* Author styling */
 .author {
   text-align: right;
   font-style: italic;
-  margin-top: 10px;
 }
